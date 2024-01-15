@@ -18,7 +18,7 @@ public class WriteIntoAFileTest {
 
     private String oddNumbersCreator() {
         StringBuilder tmp = new StringBuilder();
-        for (int number = 1; number < 100; number++) {
+        for (int number = 1; number < 100; number += 2) {
             tmp.append(number).append("\n");
         }
         return tmp.toString();
